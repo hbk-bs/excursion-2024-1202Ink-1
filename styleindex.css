@@ -10,6 +10,11 @@ margin: 0 auto;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
+p{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 header{
 background-image: linear-gradient(to top, rgba(0, 0, 0, 0.397) 0%, rgba(5, 58, 25, 0.829) 95%);
 margin: 0;
