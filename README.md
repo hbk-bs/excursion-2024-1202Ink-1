@@ -5,3 +5,5 @@
 Eine Woche in der Heimat
 
 Montag bis Freitag
+
+*Da ich krankheitsbedingt nicht an der Exkursion in Leipzig teilnehmen konnte, habe ich die Woche in meiner Heimat dokumentiert.
