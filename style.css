@@ -14,7 +14,7 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 p{
   padding-left: 5%;
   padding-right: 5%;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 header{
@@ -22,7 +22,7 @@ background-image: linear-gradient(to top, rgba(0, 0, 0, 0.397) 0%, rgba(5, 58, 2
 margin: 0;
 padding-left: 5%;
 text-align: center;
-font-size: 130%;
+font-size: 100%;
 color: rgb(255, 255, 255);
 text-shadow: 3px 3px 4px rgb(5, 58, 25);
 display: flex;
