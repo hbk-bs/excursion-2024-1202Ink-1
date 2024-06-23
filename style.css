@@ -1,38 +1,121 @@
-* {
-  box-sizing: border-box;
-}
-html {
-  font-size: 18px;
-}
-body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-}
-main {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
+*{
+    box-sizing: border-box;
+    gap: 2rem;
 }
 
-figure {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
+body{
+background-image: url(background.jpg);
+max-width: 100vw;
+margin: 0 auto;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+
+p{
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 15px;
 }
 
-figcaption {
-  font-size: 1.5rem;
-  font-weight: 700;
+header{
+background-image: linear-gradient(to top, rgba(0, 0, 0, 0.397) 0%, rgba(5, 58, 25, 0.829) 95%);
+margin: 0;
+padding-left: 5%;
+text-align: center;
+font-size: 100%;
+color: rgb(255, 255, 255);
+text-shadow: 3px 3px 4px rgb(5, 58, 25);
+display: flex;
+flex-direction: row;
+justify-content:first baseline;
+align-items: center; 
+}
+
+img{
+width: 80%;
+height: auto;
+border: 1px solid rgb(94, 94, 94);
+}    
+
+
+.column{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; 
+}
+
+.row{
+display: flex;
+flex-direction: row;    
+}
+
+figure{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.Wochentage{
+display: flex;
+flex-direction: column;
+font-size: 150%; 
+padding-left: 5%;
+padding-right: 5%;
+}
+
+.Menülink{
+background-image: linear-gradient(to right, rgba(58, 99, 47, 0.742) 0%, rgba(58, 71, 52, 0) 100%);
+text-decoration: none;
+color: rgb(0, 0, 0);
+padding: 2%;
+border-left: 2px solid rgb(5, 58, 25);
+
+}
+
+.Menülink:hover{
+background-color: rgba(0, 0, 0, 0.758);
+color: white;
+}
+
+
+.next{
+text-decoration: none;
+color: rgb(255, 255, 255);
+padding-left: 5px;
+padding-right: 5px;
+font-size: 120%;
+}
+
+.next:hover{
+    background-color: rgb(5, 58, 25);
+    color: white;
+}
+
+.btn {
+    background-color: rgba(255, 255, 255, 0.192); 
+    border: none;
+    color: white; 
+    padding: 12px 16px; 
+    font-size: 16px; 
+    cursor: pointer; 
+  }
+  
+  .btn:hover {
+    background-color: rgb(5, 58, 25);
+  }
+
+footer{
+    background-image: linear-gradient(to top, rgba(13, 62, 0, 0.752) 0%, rgba(51, 51, 51, 0.784) 100%);
+    background-position: center center;
+    padding-top: 0.5%;
+    text-shadow: 3px 3px 4px rgb(5, 58, 25);
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
 }
